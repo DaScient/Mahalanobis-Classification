@@ -13,12 +13,9 @@ Sensor calibrations and formatting of data are preserved and processed before cr
 [cft]: Counterfeit bills collected. 
 
 
-*Note*
-
-I will think about adding these raw collected data.csv's for your pleasure. 
+Note:
+I have added raw collected data.csv's (where these sets all come from) for your pleasure. 
 But for now to show Mahalanobis in action, this package will work. 
-
-*ADDED... see below.*
 
 
 ~Datasets~
