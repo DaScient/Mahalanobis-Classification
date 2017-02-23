@@ -11,6 +11,7 @@ Sensor calibrations and formatting of data are preserved and processed before cr
 *Note*
 I will think about adding these raw collected data.csv's for your pleasure. 
 But for now to show Mahalanobis in action, this package will work. 
+*ADDED... see below.*
 
 ~Datasets~
 [Original_legit_set_for_Mahal.csv]: contains 96 observations with 79 variables each. 
@@ -43,6 +44,19 @@ This basically simulates 135 new observations.
 
 [D2_Test]: You'll notice here the last 39 entities stick out because they are very Mahalanobis-distant from the trained set (legits).
 
+_______________________________________________________________________________________________
+Raw data files for your pleasure.
+Here I added .csv data consisting of scans of the same currency, same denomination. Different sensors (First Column: 1-8), Different directions (LD, LU, RD, RU). 
 
+In order to create a training set for analysis (like for the Mahalanobis Classification), you need to note that each Sensor is unique to each Direction. 
+
+[TACHS. csv]: Is simply a header for your own use. I use it just in case I have to open the files using Excel. It is automatically applied as the header, which makes locating/counting the variables (tachs) much easier. 
+
+Creating target-columns
+[C_string_appendor]: is a program that appends a new column of {C}'s to each entity. This helps for machine learning algorithms that require 'target values'. Counterfeit or Check data tagging. 
+[L_string_appendor]: is a program that appends a new column of {L}'s to each entity. This helps for machine learning algorithms that require 'target values'.  Legit data tagging. 
+
+HAVE FUN!
+_______________________________________________________________________________________________
 #Done
 
