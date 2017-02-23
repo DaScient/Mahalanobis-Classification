@@ -8,7 +8,7 @@ Sensor calibrations and formatting of data are preserved and processed before cr
 [legit]: Legitimate bills collected. 
 [cft]: Counterfeit bills collected. 
 
-*Note*
+*Note*\n
 I will think about adding these raw collected data.csv's for your pleasure. 
 But for now to show Mahalanobis in action, this package will work. 
 *ADDED... see below.*
